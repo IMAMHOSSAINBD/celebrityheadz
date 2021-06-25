@@ -1,0 +1,44 @@
+
+/*  Basic Setup */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  Color  */
+
+
+/*  Global CSS */
+
+.BigTitle {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #575EA8;
+    padding-top: 5rem;
+    text-align: center;
+}
+.MediumTitle{
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #373D6E;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+
+/*  Slide One CSS */
+.secOne {
+    background-image: url(img/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.img-1 {
+    width: 85%;
+}
+
+
