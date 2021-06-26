@@ -1,19 +1,66 @@
+/*  Color  */
+
+:root {
+	--colorOne : #575EA8; 
+	--colorTwo : white; 
+	--colorThree : #616368; 
+	--colorFour : #f55767; 
+    --colorFive : #373D6E;
+    --colorSix : #F6F5B4;
+
+	
+}
 
 /*  Basic Setup */
 body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*  Color  */
+a {
+    text-decoration: none;
+    transition: 1s all;
+}
+a:hover {
+    color: var(--colorSix);
+    transition: 1s all;
+}
+
 
 
 /*  Global CSS */
+.text-bold {
+    font-weight: bold;
+}
+
+
+.navbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+ .bg-light{
+    background-color: var(--colorFive)!important;
+    
+}
+
+
+ul, ol {
+    padding-left: .5rem;
+}
+ul li {
+    list-style-type: none;
+}
+
+.pTop-8 {
+    padding-top: 8rem;
+}
+
+
 
 .BigTitle {
     font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #575EA8;
+    color: var(--colorOne);
     padding-top: 5rem;
     text-align: center;
 }
@@ -21,24 +68,244 @@ body{
     font-size: 3rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #373D6E;
+    color: var(--colorFive);
     padding-top: 4rem;
     text-align: center;
 }
 
+.smalltext {
+    font-size: 1.5rem;
+}
 
-/*  Slide One CSS */
+
+/* Navbar */
+
+.navbar-dark .navbar-brand {
+    color: var(--colorTwo);
+    margin-right: 3rem;
+}
+
+.navbar-dark .navbar-brand:hover{
+    color : #a0a7ec;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: var(--colorSix);
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--colorTwo);
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--colorSix);
+}
+
+/*  Home Page CSS */
 .secOne {
     background-image: url(img/bg-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 2rem;
+    padding-top: 4.5rem;
     padding-bottom: 2rem;
+}
+
+.secOne .MediumTitle {
+    color: var(--colorTwo);
+    padding-top: 5rem;
 }
 
 .img-1 {
     width: 85%;
 }
+
+/* Invesment Page CSS */
+
+.investmentSec {
+    background-image: url(img/bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.investmentSec  .BigTitle {
+    color: var(--colorFour);
+    padding-top: 2rem;
+}
+
+.investmentSec  .MediumTitle {
+    color: var(--colorFour);
+    padding-top:0;
+    font-size: 1rem;
+}
+
+/* Return on Investment Page CSS */
+
+.returnSec {
+    background-image: url(img/bg-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 20rem;
+}
+
+.returnSec .BigTitle {
+    color: var(--colorTwo);
+}
+
+.returnSec .MediumTitle {
+    font-size: 1.5rem;
+    color: var(--colorTwo);
+    font-weight: normal;
+    
+}
+
+
+/* Features Section */
+
+.featuresSec{
+    background-image: url(img/bg-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.featuresSec h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+
+.featuresSec .BigTitle {
+    font-size: 3rem;
+    color: black;
+}
+
+
+.featuresSec p {
+    font-size: 1.5rem;
+}
+
+/* Celebreties Section */
+
+.celebretiesSec {
+    background-image: url(img/bg-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+
+.celebretiesSec p {
+    font-size: 1.5rem;
+}
+
+
+/* Market Contacts Section */
+
+.marketSec {
+    background-image: url(img/bg-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.marketSec p {
+    font-size: 1.5rem;
+}
+
+/* Negotiaing Contacts Section */
+
+/* .negotiatingSec {
+    background-image: url(img/bg-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: 23rem;
+} */
+
+.negotiatingSec .BigTitle {
+    color: black;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+
+/* Contact Section */
+
+.contactSec {
+    background-image: url(img/bg-8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.contactSec ul li i {
+    color: var(--colorFive);
+}
+
+.contactSec ul li {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.contactSec .BigTitle {
+    color: var(--colorTwo);
+    padding-bottom: 2rem;
+    
+}
+
+
+.negotiatingSec p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*  Footer */
+footer {
+    background-color: var(--colorOne);
+    color: var(--colorTwo);
+}
+footer ul li a {
+    color: var(--colorTwo);
+}
+
+
+
+.footer-title {
+    font-weight: bold;
+    
+}
+
+.footer-title::after {
+    content: " ";
+    width: 2rem;
+    height: .15rem;
+    background-color: var(--colorSix);
+    display: block;
+}
+
+
+.footer-btm {
+    background-color: var(--colorFive);
+    color: var(--colorTwo);
+    padding-top: 1.5rem;
+}
+
+.footer-btm h6{
+    margin-bottom: 0;
+}
+
 
 

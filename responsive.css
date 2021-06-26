@@ -1,0 +1,47 @@
+
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+    .BigTitle {
+        font-size: 2rem;
+    }
+
+    .MediumTitle {
+        font-size: 1.5rem;
+    }
+ }
+
+
+ @media (max-width: 767.98px) { 
+    .BigTitle {
+        font-size: 2rem;
+    }
+
+    .MediumTitle {
+        font-size: 1.5rem;
+    }
+
+    .secOne .col-md-6 img {
+        display: none;
+    }
+
+    .returnSec {
+        padding-bottom: 2rem;
+    }
+
+    .featuresSec .BigTitle {
+        font-size: 1.5rem;
+    }
+    .featuresSec  .MediumTitle {
+        font-size: 1.5rem;
+    }
+    .featuresSec {
+        background-image: none;
+    }
+    /* .contactSec {
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    } */
+
+    .contactSec ul li {
+        font-size: 1rem;
+    }
+ }
